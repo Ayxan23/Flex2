@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainly {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  padding: 0px 50px;
+}
+
+/* first selection */
+.sect_first {
+  display: flex;
+  flex-direction: column;
+}
+
+.all_texts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.texts {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+}
+
+.icon_text {
+  display: flex;
+  color: rgb(0, 177, 68);
+}
+
+.service_text {
+  color: rgb(129, 129, 129);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.top_icons {
+  margin-right: 10px;
+  padding-bottom: 6px;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+.top_text,
+.bottom_text {
+  color: rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(0, 177, 68);
+  margin: 30px 0px;
+  padding-bottom: 10px;
+}
+
+
+/* second selection */
+.sect_second {
+  display: flex;
+  flex-direction: column;
+}
+
+.teams_cont {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+}
+
+.team_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.team_contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4px;
+  color: rgb(184, 184, 184);
+}
+
+.fa-brands:hover {
+  color: rgb(0, 177, 68);
+  cursor: pointer;
+}
+
+.img_div {
+  width: 445px;
+  height: 445px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.name {
+  font-weight: 600;
+  color: rgb(0, 177, 68);
+}
+
+.job {
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+}
+
+.mail {
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  margin-top: 10px;
+  background-color: rgb(0, 177, 68);
+}
+
+.fa-envelope {
+  margin-top: 9px;
+  color: white;
+}
+
+.find_text {
+  font-size: 14px;
+  color: rgb(129, 129, 129);
+}
